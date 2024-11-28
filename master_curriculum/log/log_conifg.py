@@ -26,7 +26,7 @@ def setup_logging(name):
         'loggers': {
             name: {
                 'level': 'DEBUG',
-                'handlers': ['console', 'file'],
+                'handlers': ['console', ],
             },
         },
     })
